@@ -1,0 +1,25 @@
+{
+  "name": "help-kafka",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "build": "tsc",
+    "a": "node dist/Producer",
+    "b": "node dist/Consumer"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "kafkajs": "^2.1.0"
+  }
+}
